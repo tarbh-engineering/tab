@@ -1,0 +1,27 @@
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+@keyframes enter {
+  from {
+    transform: scaleX(0.8);
+    opacity: 0.8;
+    /*filter: blur(50px);*/
+  }
+  to {
+    transform: scaleX(1);
+    opacity: 1;
+    /*filter: blur(0px);*/
+  }
+}
+
+@font-face {
+  font-family: "Abel";
+  src: url("./fonts/abel.woff2") format("woff2"),
+    url("./fonts/abel.woff") format("woff");
+}
